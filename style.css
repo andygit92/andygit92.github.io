@@ -16,3 +16,29 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+
+    .imageContainer {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 200px; /* Adjust the size as needed */
+        height: 200px; /* Adjust the size as needed */
+        margin: 0 auto; /* Center the image */
+    }
+    
+    .imageAboutPage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    In the above code, the .imageContainer class is used to create a circular container for the image using the border-radius property. The overflow: hidden property ensures that the image stays within the circular container. Adjust the width and height properties of the .imageContainer class to change the size of the circular image.
+    
+    The .imageAboutPage class is used to make sure the image fills the circular container with the width: 100%; and height: 100%; properties, and object-fit: cover; property makes sure the image maintains its aspect ratio.
+    
+    With these changes, the image will have a curved border, giving it a circular shape.
+    
+    
+    
+    
+    
+    
+    
